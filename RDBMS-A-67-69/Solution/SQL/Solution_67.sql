@@ -1,0 +1,1 @@
+SELECT sum(quotedprice) AS "TOTALPRICE" FROM quotation WHERE qdate LIKE '%-Jun-%';

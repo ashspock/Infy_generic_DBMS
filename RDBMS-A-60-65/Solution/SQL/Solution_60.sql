@@ -1,0 +1,1 @@
+SELECT orderid,round(abs((months_between(orderdate,pymtdate)))*30) AS NOOFDAYS FROM orders;

@@ -1,0 +1,1 @@
+SELECT descr FROM item WHERE length(descr)>15;

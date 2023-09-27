@@ -1,0 +1,1 @@
+SELECT substr(roid,2,5) AS numericroid FROM retailoutlet;

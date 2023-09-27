@@ -1,0 +1,2 @@
+--SELECT prodid,category,discount FROM product ORDER BY category DESC,price ASC; 
+SELECT pymtmode,count(pymtmode) AS pymtcount FROM orders WHERE (EXTRACT(YEAR FROM pymtdate)<2015) GROUP BY pymtmode HAVING count(pymtmode)>1;

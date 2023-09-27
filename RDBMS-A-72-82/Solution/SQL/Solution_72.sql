@@ -1,0 +1,1 @@
+SELECT custid AS "Customer Id", C.CUSTNAME AS "Customer Name" FROM Customer C INNER JOIN Empdetails E ON (C.CUSTNAME=E.EMPNAME AND C.EMAILID=E.EMAILID);

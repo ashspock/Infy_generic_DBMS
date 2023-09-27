@@ -1,0 +1,1 @@
+SELECT Q.SNAME,Q.QUOTATIONID FROM orders O INNER JOIN quotation Q ON Q.QUOTATIONID=O.QUOTATIONID WHERE (abs(months_between(orderdate,delivereddate))*30)<=5 ORDER BY Q.QUOTATIONID DESC;

@@ -1,0 +1,1 @@
+ SELECT itemtype,descr,price FROM item WHERE price>4000;
