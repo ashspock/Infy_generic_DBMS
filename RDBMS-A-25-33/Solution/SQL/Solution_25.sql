@@ -1,0 +1,1 @@
+SELECT itemcode,descr,price FROM item WHERE (descr LIKE '%Shirt%' OR descr LIKE '%Skirt%') AND category='B';

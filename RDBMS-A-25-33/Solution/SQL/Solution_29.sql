@@ -1,0 +1,1 @@
+SELECT itemcode,descr,price FROM item WHERE descr LIKE '_r%'; 
